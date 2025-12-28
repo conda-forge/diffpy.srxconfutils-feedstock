@@ -1,5 +1,5 @@
 {% set name = "diffpy.srxconfutils" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.3" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/d/diffpy_srxconfutils/diffpy_srxconfutils-{{ version }}.tar.gz
-  sha256: 5353245c112087da49af804807e4932d33fd67c337a4a6793139a4e836de566c
+  sha256: 3979ab8aeb472fa07a8a92b2d7e4007758eb29ff35e446c618b38390c0354dd7
 
 build:
   noarch: python
